@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+div {
+    display: inline-block;
+    margin: auto; 
+      
+}
+
+div > a {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 200px;
+}
+
+header > p {
+    text-align: center;
+}
+
+div:hover{
+    color: blue;
+    transition: 0.9s;
+
+}
